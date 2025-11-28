@@ -1,0 +1,131 @@
+header{
+    z-index:10;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1920px;
+    min-width: 320px;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    background: hsla(0,0%,5%,1);
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://raw.githubusercontent.com/ryce-bot/SAQ2.github.io/refs/heads/main/creditsbg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.nicole{
+    width: 50%;
+    height: 50%;
+    margin-top: 95px;
+    margin-left: 30px;
+    position: fixed;
+}
+.nicole img{
+    width: 80%;
+    height: auto;
+}
+.rylah{
+    width: 50%;
+    height: 50%;
+    margin-top: 260px;
+    margin-left: 900px;
+    position: fixed;
+}
+.rylah img{
+    width: 80%;
+    height: auto;
+}
+.vi{
+    width: 50%;
+    height: 50%;
+    margin-top: 5px;
+    margin-left: 540px;
+    position: fixed;
+}
+.vi img{
+    width: 80%;
+    height: auto;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+@media (max-width: 820px) {
+    body{
+        background-image: url('https://raw.githubusercontent.com/ryce-bot/SAQ2.github.io/refs/heads/main/final_creditbg.png');
+        background-size: cover;
+    }
+    nav{
+        height:150px;
+    }
+    nav a {
+        font-size: 20px;
+    }
+    .nicole{
+        width: 95%;
+        height: 95%;
+        margin-top: 430px;
+        margin-left: 5px;
+    }
+    .rylah{
+        width: 70%;
+        height: 70%;
+        margin-top: 250px;
+        margin-left: 360px;
+    }
+    .vi{
+        width: 90%;
+        height: 90%;
+        margin-top: -70px;
+        margin-left: 80px;
+    }
+}
+@media (max-width: 375px) {
+    body{
+        background-image: url('https://raw.githubusercontent.com/ryce-bot/SAQ2.github.io/refs/heads/main/final_creditbg.png');
+        background-size: cover;
+    }
+    nav{
+        height:20px;
+        background-color: black;
+    }
+    nav a {
+        font-size: 10px;
+    }
+    .nicole{
+        width: 100%;
+        height: 100%;
+        margin-top: 350px;
+        margin-left: 5px;
+    }
+    .rylah{
+        width: 70%;
+        height: 70%;
+        margin-top: 180px;
+        margin-left: 130px;
+    }
+    .vi{
+        width: 90%;
+        height: 90%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
